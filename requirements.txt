@@ -1,0 +1,7 @@
+# CommitForge has ZERO external runtime dependencies.
+# All functionality uses Python standard library only.
+# The following are development/test dependencies only.
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
