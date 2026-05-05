@@ -18,7 +18,7 @@ from typing import Optional
 HOOK_FILE_NAME = "prepare-commit-msg"
 
 # The hook script content
-HOOK_SCRIPT = """#!/usr/bin/env bash
+HOOK_SCRIPT = r"""#!/usr/bin/env bash
 # CommitForge prepare-commit-msg hook
 # This hook is automatically installed by CommitForge.
 # To bypass, use: git commit --no-verify
